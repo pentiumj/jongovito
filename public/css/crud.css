@@ -1,0 +1,127 @@
+h2 {
+  margin: 0 0 20px;
+  color: #3889B1;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+/***** BOTONES ***/
+
+
+#lagregar{
+    
+    padding:7px;
+    margin:10px;
+    background-color: #91C783;
+    border-radius: 10px;
+    border: 1px solid #6F9764;
+    color:white;
+    
+}
+
+#lagregar:hover{
+    
+    background-color: #709A66;
+    
+}
+
+#lmodificar, #llistar{
+    
+    padding:7px;
+    margin:10px;
+    background-color: #3B95C2;
+    border-radius: 10px;
+    border: 1px solid #376480;
+    color:white;
+    
+    
+}
+
+#lmodificar, llistar:hover{
+    background-color:#2C7092;
+}
+
+.beliminar{
+    
+    padding:7px;
+    background-color:#EE5757;
+    border-radius: 10px;
+    border: 1px solid #945B59;
+    color:white;
+       
+}
+
+.beliminar:hover{
+    background-color:#A35856;
+}
+
+/**** DIVS CRUD *****/
+
+#agregar{
+    
+    
+}
+
+#modificar{
+    
+   
+}
+
+#eliminar{
+    
+   
+}
+
+#linksCrud{
+    margin-bottom: 30px;
+}
+
+#agregar {
+  padding-top:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  background: #FDFDFD;
+  max-width: 260px;
+  width: 100%;
+  border-top: 5px solid #33b5e5;
+  border-radius:10px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+label{
+    margin-left: 15px;
+}
+input, textarea, select {
+  outline: none;
+  display: block;
+  width: 100%;
+  border: 1px solid #d9d9d9;
+  margin: 0 0 20px;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  font-wieght: 400;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+input:focus, textarea:focus {
+  border: 1px solid #33b5e5;
+  color: #333333;
+}
+button {
+  cursor: pointer;
+  background: #3889B1;
+  width: 100%;
+  border: 0;
+  border-radius:10px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+button:hover {
+  background: #178ab4;
+}
